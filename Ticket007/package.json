@@ -1,18 +1,13 @@
 {
-  "name": "Ticket007",
-  "version": "0.1.0",
-  "description": "Ticket007",
-  "main": "hello-world-server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
-  },
-  "repository": "",
-  "keywords": [
-    "node.js",
-    "eclipse",
-    "nodeclipse"
-  ],
-  "author": "",
-  "license": "MIT",
-  "readmeFilename": "README.md"
+    "name": "Ticket007",
+    "version": "0.0.1",
+    "description": "Ticket007",
+    "dependencies": {
+        "express": "4.4.x",
+        "ec2metadata": "0.1.x",
+        "socket.io": "1.0.x",
+        "sequelize": "1.7.x",
+        "mysql": "2.3.2",
+        "redis": "0.10.x"
+    }
 }

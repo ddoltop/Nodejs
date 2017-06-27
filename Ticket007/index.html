@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<script src="//ajax.googleapi.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<script src="socket.io/socket.io.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
 	<div id="stage" class="btn btn-default" style="width:600px; margin-left:265px;">Stage</div>
@@ -36,8 +36,8 @@
 			var userId = prompt('ID를 입력하세요','');
 			$('#userId').text(userId);
 			
-			function action(seat,actionType){
-				socket.emit('action' {
+			function action(seat, actionType){
+				socket.emit('action', {
 					actionType:actionType,
 					userId:userId,
 					row:seat.data('row'),
