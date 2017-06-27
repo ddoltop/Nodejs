@@ -1,1 +1,3 @@
 *.suo
+/Sharefoo/node_modules
+/.vs/slnx.sqlite
